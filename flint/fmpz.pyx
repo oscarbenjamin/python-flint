@@ -1,4 +1,4 @@
-from flint.flint_base.flint_base cimport flint_scalar
+from flint.flint_base cimport flint_scalar
 
 cdef class fmpz(flint_scalar):
     def __cinit__(self):
