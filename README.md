@@ -1,11 +1,13 @@
 Reproduction of a bug in Cython 3.1 when using the limited API.
 
+See https://github.com/cython/cython/issues/7144
+
 ```console
 $ cat bug.py
-import fmpz
+from sub import C
 
 print(1)
-fmpz.fmpz(0)
+C()
 print(2)
 print('End!!!')
 $ make test
