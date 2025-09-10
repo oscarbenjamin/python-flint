@@ -1,6 +1,6 @@
-import fmpz
+from sub import C
 
 print(1)
-fmpz.fmpz()
+C()
 print(2)
 print('End!!!')
