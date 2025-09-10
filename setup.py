@@ -68,7 +68,6 @@ packages = [
     'flint.flintlib',
     'flint.flint_base',
     'flint.types',
-    'flint.functions',
     'flint.utils',
     'flint.test',
 ]
@@ -81,8 +80,6 @@ ext_files = [
     ("flint.flint_base.flint_context", ["src/flint/flint_base/flint_context.pyx"]),
 
     ("flint.types.fmpz", ["src/flint/types/fmpz.pyx"]),
-
-    ("flint.functions.showgood", ["src/flint/functions/showgood.pyx"]),
 ]
 
 ext_options = {
