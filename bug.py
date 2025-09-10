@@ -1,6 +1,6 @@
-import flint
+import fmpz
 
 print(1)
-flint.fmpz(0)
+fmpz.fmpz(0)
 print(2)
 print('End!!!')

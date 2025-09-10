@@ -13,14 +13,14 @@ else:
 setup(
     ext_modules=cythonize([
         Extension(
-            name="flint.flint_base",
-            sources=["flint/flint_base.pyx"],
+            name="flint_base",
+            sources=["flint_base.pyx"],
             define_macros=define_macros,
             py_limited_api=py_limited_api
         ),
         Extension(
-            name="flint.fmpz",
-            sources=["flint/fmpz.pyx"],
+            name="fmpz",
+            sources=["fmpz.pyx"],
             define_macros=define_macros,
             py_limited_api=py_limited_api
         ),

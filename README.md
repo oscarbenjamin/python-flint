@@ -2,10 +2,10 @@ Reproduction of a bug in Cython 3.1 when using the limited API.
 
 ```console
 $ cat bug.py
-import flint
+import fmpz
 
 print(1)
-flint.fmpz(0)
+fmpz.fmpz(0)
 print(2)
 print('End!!!')
 $ make test
