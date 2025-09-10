@@ -1,5 +1,5 @@
-cdef class flint_elem:
+cdef class A:
     pass
 
-cdef class flint_scalar(flint_elem):
+cdef class B(A):
     pass
