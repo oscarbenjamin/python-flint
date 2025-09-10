@@ -75,8 +75,6 @@ packages = [
 
 ext_files = [
     ("flint.flint_base.flint_base", ["src/flint/flint_base/flint_base.pyx"]),
-    ("flint.flint_base.flint_context", ["src/flint/flint_base/flint_context.pyx"]),
-
     ("flint.types.fmpz", ["src/flint/types/fmpz.pyx"]),
 ]
 
