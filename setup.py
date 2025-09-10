@@ -74,8 +74,6 @@ packages = [
 
 
 ext_files = [
-    ("flint.pyflint", ["src/flint/pyflint.pyx"]),
-
     ("flint.flint_base.flint_base", ["src/flint/flint_base/flint_base.pyx"]),
     ("flint.flint_base.flint_context", ["src/flint/flint_base/flint_context.pyx"]),
 
