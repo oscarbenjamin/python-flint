@@ -5,7 +5,7 @@ setup(
     ext_modules=cythonize([
         Extension(
             name="flint.flint_base.flint_base",
-            sources=["src/flint/flint_base/flint_base.pyx"],
+            sources=["flint/flint_base/flint_base.pyx"],
             define_macros=[
                 ("Py_LIMITED_API", 0x03070000),
             ],
@@ -13,12 +13,11 @@ setup(
         ),
         Extension(
             name="flint.types.fmpz",
-            sources=["src/flint/types/fmpz.pyx"],
+            sources=["flint/types/fmpz.pyx"],
             define_macros=[
                 ("Py_LIMITED_API", 0x03070000),
             ],
             py_limited_api=True
         ),
     ]),
-    package_dir={'': 'src'},
 )

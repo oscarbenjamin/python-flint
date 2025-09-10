@@ -1,4 +1,5 @@
 build/*
+*.c
 build-install/*
 dist/*
 src/flint/**/*.c
