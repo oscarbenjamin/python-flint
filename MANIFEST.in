@@ -1,7 +1,0 @@
-include LICENSE
-include CHANGES
-include README.md
-recursive-include src/flint *.pxd *.pyx *.py
-include doc/source/*.py
-include doc/source/*.rst
-include doc/Makefile
